@@ -43,11 +43,11 @@ public class Test2 extends BaseTestTemplate {
         gPage.searchBox.sendKeys("coc");
        // TestUtils.takeAndSaveScreenShot("screenshot1", driver);
 
-       if (email.equals("email2"))
-            Assert.assertFalse(gPage.searchBox.isDisplayed());
+     /*  if (email.equals("email2"))
+            Assert.assertFalse(gPage.searchBox.isDisplayed());*/
 
         gPage.searchBox.sendKeys(Keys.ENTER);
-        driver.close();
+
 
 
     }
