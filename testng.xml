@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.feniks.core.Listeners"/>
+    </listeners>
+
+   <!-- <test name = "Test1">
+        <classes>
+        <class name="com.feniks.tests.Test1">
+            <methods>
+                <include name="test"/>
+            </methods>
+        </class>
+        </classes>
+    </test>-->
+    <test name = "Test2">
+        <classes>
+        <class name="com.feniks.tests.Test2">
+            <methods><include name="test"/>
+            </methods>
+        </class>
+        </classes>
+    </test>
+</suite>
