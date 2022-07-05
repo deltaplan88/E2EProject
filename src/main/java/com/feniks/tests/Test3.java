@@ -3,15 +3,14 @@ package com.feniks.tests;
 import com.feniks.core.BaseTestTemplate;
 import com.feniks.poms.GoogleLoginPage;
 import org.openqa.selenium.Keys;
-import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import java.sql.*;
+import java.sql.SQLException;
 //@Listeners(com.feniks.core.Listeners.class)
 
 
-public class Test2 extends BaseTestTemplate {
+public class Test3 extends BaseTestTemplate {
 
     //WebDriver driver;
 
@@ -20,7 +19,7 @@ public class Test2 extends BaseTestTemplate {
 
     @Test(dataProvider = "MyDataProvider")
     public  void test(String email, String pass) throws Exception {
-
+//test
         System.out.println("email = "+email);
       //  System.out.println("pass = "+pass);
 
